@@ -1,12 +1,17 @@
-#Funktiomääritelmät
-def muuta():
-    _city = "Vantaa"
-    print("Funktion päätteeksi kaupungin nimi on: " + city)
+def seven_brothers(lista):
+    #järjestetään lista aakkosjärjestykseen
+    lista.sort()
+
+    #Tulostetaan nimet
+    print(lista)
+
+    #Tulostetaan nimet yksitellen
+    for nimi in lista:
+        print(nimi)
+
     return
 
-#Pääohjelma
-city = "Helsinki"
-print("Pääohjelman alussa kaupungin nimi on: " + _city)
-muuta()
-print("Pääohjelman lopussa kaupungin nimi on: " + city)
 
+#Pääohjelma
+veljekset = ["Juhani", "Lauri", "Aapo", "Timo", "Tuomas", "Eero", "Simeoni"]
+seven_brothers(veljekset)
