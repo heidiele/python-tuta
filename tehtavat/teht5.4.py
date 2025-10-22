@@ -1,10 +1,10 @@
 kaupungit = []
 
 for i in range(5):
-    nimi = input("Anna kaupungin nimi: ")
+    nimi = input("Anna kaupunki: ")
     kaupungit.append(nimi)
 
-print("Syöttämäsi kaupungit:")
-for nimi in kaupungit:
-    print(nimi)
+print("Kaupungit järjestyksessä: ")
+for k in kaupungit:
+    print(k)
 
